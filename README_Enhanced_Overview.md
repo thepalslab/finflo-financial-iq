@@ -8,7 +8,7 @@ Commercial banking portals are excellent at execution — but weak on engagement
 - There's no curiosity, no surprise, no ongoing relationship with knowledge.
 
 ## 📚 The Background
-U.S. Bank’s **Financial IQ** platform provides high-quality content on everything from mortgages to treasury management.
+Some Bank’s **Financial IQ** platform provides high-quality content on everything from mortgages to treasury management.
 
 But today, that content:
 - Lives on a separate site
@@ -48,7 +48,7 @@ Let’s bring financial intelligence **into the workflow** — where it belongs.
 # 💡 Meet FinFlo
 
 ## 🎯 What It Is
-**FinFlo** is a contextual micro-learning assistant designed specifically for content-driven experiences — like U.S. Bank’s Financial IQ platform.
+**FinFlo** is a contextual micro-learning assistant designed specifically for content-driven experiences — like Some Bank’s Financial IQ platform.
 
 It offers proactive, page-aware insights that appear while users browse static knowledge pages. No chatbot. No typing. Just lightweight suggestions that fit the content you're already reading.
 
@@ -95,7 +95,7 @@ FinFlo cards appear inline or in a floating sidebar. They're non-intrusive, visu
 ## 🔭 Scalable Vision
 
 Future versions could use:
-- 🔐 Secure LLMs scoped to U.S. Bank content
+- 🔐 Secure LLMs scoped to Some Bank content
 - 🔄 Dynamic updates based on behavior
 - 🧑‍💼 Authenticated experience with user-specific prompts
 
@@ -103,7 +103,7 @@ Future versions could use:
 
 ## ✅ Summary
 
-> FinFlo is the voice of intelligence inside U.S. Bank content.  
+> FinFlo is the voice of intelligence inside Some Bank content.  
 > Friendly. Helpful. Always in context.
 
 Because even the best content deserves a little company.
