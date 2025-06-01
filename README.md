@@ -25,7 +25,3 @@ Dive into the implementation details of the MVP:
 ## ✨ [Behind the Name: FinFlo](README_Behind_The_Name.md)
 
 Explore the thinking behind the name "FinFlo" — and how we wanted to make financial learning feel smoother, smarter, and a little more fun.
-
----
-
-Each section is self-contained and easy to read. All content was used to support the original submission and to guide future collaboration or scaling.
