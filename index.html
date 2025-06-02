@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Mortgage Basics – FinFlo Mock</title>
+  <title>Mortgage Basics – FinFlo Assistant</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
@@ -63,14 +63,17 @@
     </main>
 
     <aside class="finflo-sidebar">
-      <div class="quiz-card" id="quiz">
-        <h3>🧠 Test Your Credit Knowledge</h3>
-        <div id="quiz-question"></div>
-        <div class="quiz-options" id="quiz-options"></div>
-        <div id="quiz-feedback" class="feedback"></div>
-        <button id="next-btn" style="display:none;" onclick="nextQuestion()">Next</button>
-        <div id="quiz-result" class="result" style="display:none;"></div>
+      <div class="finflo-welcome">
+        <h3>👋 Hi, I'm FinFlo</h3>
+        <p>What would you like to do today?</p>
+        <div class="options">
+          <button onclick="selectOption('quiz')">🧠 Take a Quiz</button>
+          <button onclick="selectOption('fact')">💡 Show Me a Fact</button>
+          <button onclick="selectOption('chart')">📊 Chart-Based Tip</button>
+          <button onclick="selectOption('slider')">🎛 Try a Slider</button>
+        </div>
       </div>
+      <div class="finflo-output" id="finflo-output"></div>
     </aside>
   </div>
 
@@ -78,6 +81,6 @@
     <p>© 2025 U.S. Bank</p>
   </footer>
 
-  <script src="assets/js/advanced-quiz.js"></script>
+  <script src="assets/js/welcome.js"></script>
 </body>
 </html>

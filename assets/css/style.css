@@ -2,13 +2,14 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 2rem;
-  background: #ffffff;
-  color: #333;
+  padding: 0;
+  color: #1e2d3b;
+  background: #fff;
 }
 .page-wrapper {
   display: flex;
   gap: 2rem;
+  padding: 2rem;
 }
 .main-content {
   flex: 3;
@@ -19,18 +20,19 @@ body {
   position: sticky;
   top: 2rem;
 }
-.quiz-card {
+.finflo-welcome {
   background: #f1f6fb;
-  border-left: 4px solid #0072ce;
   padding: 1rem;
   border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  border-left: 4px solid #0072ce;
+  margin-bottom: 1rem;
 }
-.quiz-card h3 {
+.finflo-welcome h3 {
   color: #0072ce;
 }
-.quiz-options button {
+.options button {
   display: block;
+  width: 100%;
   margin: 0.5rem 0;
   padding: 0.5rem;
   background: #0072ce;
@@ -39,15 +41,12 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-.quiz-options button:hover {
+.options button:hover {
   background: #005bb5;
 }
-.feedback {
-  margin-top: 1rem;
-  font-weight: bold;
-}
-.result {
-  margin-top: 1rem;
-  font-size: 1rem;
-  font-weight: bold;
+.finflo-output {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.05);
 }
