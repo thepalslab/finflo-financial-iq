@@ -23,7 +23,7 @@ FinFlo is embedded directly into the article page — no popups, no overlays —
 
 > _Try me live, or explore what users experience step by step._
 
-![Click to watch demo](https://thepalslab.github.io/finflo-financial-iq/)
+![Click to watch demo](assets/img/finflo-demo.gif)
 > _Placeholder for a quick GIF or video — e.g., FinFlo in action on a mortgage page_
 
 ---
