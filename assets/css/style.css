@@ -1,99 +1,53 @@
-/* General Body Styles */
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: #ffffff;
+  color: #333;
 }
-
-header {
-    background-color: #007bff; /* A generic bank-like blue */
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+.page-wrapper {
+  display: flex;
+  gap: 2rem;
 }
-
-header h1 {
-    margin: 0;
+.main-content {
+  flex: 3;
 }
-
-main {
-    display: flex; /* Use flexbox to position article and sidebar */
-    margin: 20px;
-    gap: 20px; /* Space between article and sidebar */
+.finflo-sidebar {
+  flex: 1;
+  max-width: 320px;
+  position: sticky;
+  top: 2rem;
 }
-
-article {
-    flex-basis: 70%; /* Article takes up more space */
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+.quiz-card {
+  background: #f1f6fb;
+  border-left: 4px solid #0072ce;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
-
-article h2, article h3 {
-    color: #0056b3; /* Darker blue for headings */
+.quiz-card h3 {
+  color: #0072ce;
 }
-
-/* FinFlo Sidebar Styles */
-#finflo-sidebar {
-    flex-basis: 30%; /* Sidebar takes less space */
-    background-color: #e9ecef; /* Light grey background for sidebar */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    height: fit-content; /* Sidebar height adjusts to content */
+.quiz-options button {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background: #0072ce;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
-
-#finflo-sidebar h3 {
-    margin-top: 0;
-    color: #007bff;
-    text-align: center;
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 10px;
+.quiz-options button:hover {
+  background: #005bb5;
 }
-
-/* Individual Insight Card Styles */
-.finflo-insight-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-left: 5px solid #007bff; /* Accent border */
-    border-radius: 5px;
-    padding: 15px;
-    margin-bottom: 15px;
-    cursor: pointer;
-    transition: box-shadow 0.3s ease;
+.feedback {
+  margin-top: 1rem;
+  font-weight: bold;
 }
-
-.finflo-insight-card:hover {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-}
-
-.finflo-insight-card .nudge {
-    font-weight: bold;
-    color: #333;
-    margin: 0;
-}
-
-.finflo-insight-card .detail {
-    margin-top: 10px;
-    font-size: 0.9em;
-    color: #555;
-    display: none; /* Hidden by default, shown on click */
-    border-top: 1px dashed #eee;
-    padding-top: 10px;
-}
-
-.finflo-insight-card.expanded .detail {
-    display: block; /* Show detail when card is expanded */
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #343a40; /* Dark footer */
-    color: #fff;
-    margin-top: 30px;
+.result {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
 }

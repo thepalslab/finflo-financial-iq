@@ -1,22 +1,14 @@
-[
-  {
-    "keyword": "mortgage",
-    "prompt": "Fixed vs. variable rate mortgages: Learn the top 3 differences in under 60 seconds.",
-    "detail": "Fixed-rate loans keep your interest stable, while variable rates can adjust after a period..."
-  },
-  {
-    "keyword": "closing costs",
-    "prompt": "Think you understand closing costs? You might be surprised.",
-    "detail": "Closing costs typically range from 2% to 5% of the purchase price..."
-  },
-  {
-    "keyword": "down payment",
-    "prompt": "Wondering how much you should put down? Here’s what to consider.",
-    "detail": "A larger down payment can reduce your interest rate and eliminate private mortgage insurance..."
-  },
-  {
-    "keyword": "homeownership",
-    "prompt": "💡 Ready for homeownership? Key steps to begin!",
-    "detail": "Explore essential preparations for buying your first home."
-  }
-]
+{
+  "credit score": [
+    {
+      "title": "\ud83e\udde0 Think You Know What\u2019s Hurting Your Score?",
+      "text": "Most people miss this one factor that silently lowers their credit score.",
+      "action": "\ud83d\udc49 Reveal It"
+    },
+    {
+      "title": "\ud83e\uddee Your Credit Usage Might Be Too High",
+      "text": "Check if you're over the 30% mark and what you can do right now to fix it.",
+      "action": "\u2705 Check Now"
+    }
+  ]
+}
