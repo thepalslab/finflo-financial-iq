@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     async function fetchInsights() {
         try {
             // Inside the fetchInsights function
-            const response = await fetch('../assets/data/insights.json');
+            const response = await fetch('assets/data/insights.json');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
         insightsContainer.innerHTML = ''; // Clear any loading messages
 
         const relevantInsights = insights.filter(insight =>
-            insight.topic.toLowerCase() === currentPageTopic
+            insight.keyword.toLowerCase() === currentPageTopic
         );
 
         if (relevantInsights.length === 0) {
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             const nudgeElement = document.createElement('p');
             nudgeElement.classList.add('nudge');
-            nudgeElement.textContent = insight.nudge;
+            nudgeElement.textContent = insight.prompt;
 
             const detailElement = document.createElement('div');
             detailElement.classList.add('detail');

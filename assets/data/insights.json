@@ -13,5 +13,10 @@
     "keyword": "down payment",
     "prompt": "Wondering how much you should put down? Here’s what to consider.",
     "detail": "A larger down payment can reduce your interest rate and eliminate private mortgage insurance..."
+  },
+  {
+    "keyword": "homeownership",
+    "prompt": "💡 Ready for homeownership? Key steps to begin!",
+    "detail": "Explore essential preparations for buying your first home."
   }
 ]
