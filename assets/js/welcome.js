@@ -18,7 +18,7 @@ function selectOption(type) {
   } else if (type === "chart") {
     output.innerHTML = `
       <h4>📊 Credit Score Breakdown</h4>
-      <img src="https://via.placeholder.com/300x200?text=Pie+Chart+FICO+Breakdown" alt="Chart Visual Tip" />
+      <img src="assets/img/credit-score-chart.png" alt="Chart Visual Tip" />
     `;
   } else if (type === "slider") {
     output.innerHTML = `
