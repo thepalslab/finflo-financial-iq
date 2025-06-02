@@ -1,0 +1,17 @@
+[
+  {
+    "keyword": "mortgage",
+    "prompt": "Fixed vs. variable rate mortgages: Learn the top 3 differences in under 60 seconds.",
+    "detail": "Fixed-rate loans keep your interest stable, while variable rates can adjust after a period..."
+  },
+  {
+    "keyword": "closing costs",
+    "prompt": "Think you understand closing costs? You might be surprised.",
+    "detail": "Closing costs typically range from 2% to 5% of the purchase price..."
+  },
+  {
+    "keyword": "down payment",
+    "prompt": "Wondering how much you should put down? Here’s what to consider.",
+    "detail": "A larger down payment can reduce your interest rate and eliminate private mortgage insurance..."
+  }
+]
