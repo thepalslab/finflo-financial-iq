@@ -5,6 +5,19 @@ Welcome to the documentation hub for **FinFlo** — a contextual insight assista
 
 ---
 
+## 🧩 Challenge Submission
+
+This project was submitted for the **US Bancorp BRE Plugin Challenge 2025**.
+
+FinFlo is a plugin-style, context-aware assistant that enhances business rule–driven content with:
+- Real-time user interaction
+- Micro-learning moments
+- Dynamic decision support
+
+It's designed to drop into environments like **U.S. Bank Financial IQ**, modernizing the experience without disrupting existing platforms.
+
+---
+
 ## 👋 Meet FinFlo
 
 > “Hi, I’m FinFlo. What would you like to do today?”
