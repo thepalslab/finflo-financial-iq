@@ -5,16 +5,9 @@ Welcome to the documentation hub for **FinFlo** — a contextual insight assista
 
 ---
 
-## 🧩 Challenge Submission
+## 📘 [Overview: What is FinFlo](README_Enhanced_Overview.md)
 
-This project was submitted for the **US Bancorp BRE Plugin Challenge 2025**.
-
-FinFlo is a plugin-style, context-aware assistant that enhances business rule–driven content with:
-- Real-time user interaction
-- Micro-learning moments
-- Dynamic decision support
-
-It's designed to drop into environments like **U.S. Bank Financial IQ**, modernizing the experience without disrupting existing platforms.
+Get an introduction to FinFlo, its purpose, and how it transforms content experiences for platforms like Some Bank’s Financial IQ.
 
 ---
 
@@ -32,29 +25,26 @@ FinFlo is embedded directly into the article page — no popups, no overlays —
 
 ---
 
-## 🚀 Live Demo
+## 🎥 Demo Walkthrough
 
-You can explore FinFlo directly at:
+> _Try me live, or explore what users experience step by step._
 
-🔗 [https://thepalslab.github.io/finflo-financial-iq/](https://thepalslab.github.io/finflo-financial-iq/)
-
-This demo shows FinFlo embedded in a real article layout with interactive modes: Quiz, Fact, Chart, and Slider.
-
----
-
-## 🎥 Interactive Walkthrough
-
-![FinFlo Demo](assets/img/finflo-demo.gif)
-
-> FinFlo greets the user, offers multiple learning modes, and shows immediate feedback — all within the article experience.
+![Click to watch demo](assets/img/finflo-demo.gif)
+> _Placeholder for a quick GIF or video — e.g., FinFlo in action on a mortgage page_
 
 ---
 
-## 📘 [Overview: What is FinFlo](README_Enhanced_Overview.md)
+## 🔁 Now vs. Future
 
-Get an introduction to FinFlo, its purpose, and how it transforms content experiences for platforms like Some Bank’s Financial IQ.
+| FinFlo Today (MVP) | FinFlo Tomorrow (Future AI-Enhanced) |
+|--------------------|--------------------------------------|
+| Rule-based content from JSON | Dynamic insight via GenAI (OpenAI/Azure) |
+| Fixed interaction modes (quiz, slider) | Contextual Q&A from users (chatbox) |
+| Fully frontend, no backend needed | API-connected AI assistant |
+| Static suggestions | Personalized, generated recommendations |
 
 ---
+
 
 ## 🛠 [MVP, Tech Stack & Usage Guide](README_Tech_MVP_Guide.md)
 
