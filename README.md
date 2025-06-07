@@ -38,12 +38,21 @@ FinFlo is embedded directly into the article page — no popups, no overlays —
 
 ---
 
-## 🎥 Demo Walkthrough
+## 🚀 Live Demo
 
-> _Try me live, or explore what users experience step by step._
+You can explore FinFlo directly at:
 
-![Click to watch demo](assets/img/finflo-demo.gif)
-> _Placeholder for a quick GIF or video — e.g., FinFlo in action on a mortgage page_
+🔗 [https://thepalslab.github.io/finflo-financial-iq/](https://thepalslab.github.io/finflo-financial-iq/)
+
+This demo shows FinFlo embedded in a real article layout with interactive modes: Quiz, Fact, Chart, and Slider.
+
+---
+
+## 🎥 Interactive Walkthrough
+
+![FinFlo Demo](assets/img/finflo-demo.gif)
+
+> FinFlo greets the user, offers multiple learning modes, and shows immediate feedback — all within the article experience.
 
 ---
 
@@ -57,7 +66,6 @@ FinFlo is embedded directly into the article page — no popups, no overlays —
 | Static suggestions | Personalized, generated recommendations |
 
 ---
-
 
 ## 🛠 [MVP, Tech Stack & Usage Guide](README_Tech_MVP_Guide.md)
 
