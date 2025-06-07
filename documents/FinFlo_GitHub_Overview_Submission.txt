@@ -1,0 +1,40 @@
+# FinFlo – GitHub Project Overview
+
+**Repository Name:** `finflo-financial-iq`  
+**Link:** [GitHub repo will be added upon submission]
+
+## 📌 What is FinFlo?
+FinFlo is a contextual financial learning assistant designed to enhance the U.S. Bank Financial IQ content experience. It delivers bite-sized, page-aware insights directly within static content pages — making financial education more dynamic, engaging, and helpful.
+
+## 🛠 MVP Description
+The MVP is a fully front-end implementation that includes:
+- A static HTML page simulating a Financial IQ article
+- A sidebar or floating card with insight prompts powered by FinFlo
+- Static JSON content store of tips
+- Lightweight AI model or embedding logic for content relevance
+
+No backend or user data is used — ensuring a secure, low-friction demo.
+
+## 🔧 Tech Stack
+- HTML, CSS, JavaScript
+- JSON for storing insights
+- (Optional) Lightweight AI embedding model for local context matching
+
+## 📁 Repository Structure
+```
+finflo-financial-iq/
+├── index.html              # Demo page
+├── style.css               # Styles for layout and FinFlo UI
+├── finflo.js               # Insight display and AI logic
+├── insights.json           # Content tip set
+└── README.md               # Setup and walkthrough
+```
+
+## ✅ How to Use the MVP
+1. Open `index.html` in a browser.
+2. FinFlo will detect the article theme and display 1–2 relevant insights.
+3. Click an insight to expand and learn more.
+4. All logic runs in-browser. No internet or backend required.
+
+---
+The repository will be live and available to judges before demo day.
