@@ -5,6 +5,12 @@ Welcome to the documentation hub for **FinFlo** — a contextual insight assista
 
 ---
 
+## 📘 [Overview: What is FinFlo](README_Enhanced_Overview.md)
+
+Get an introduction to FinFlo, its purpose, and how it transforms content experiences for platforms like Some Bank’s Financial IQ.
+
+---
+
 ## 👋 Meet FinFlo
 
 > “Hi, I’m FinFlo. What would you like to do today?”
@@ -28,11 +34,17 @@ FinFlo is embedded directly into the article page — no popups, no overlays —
 
 ---
 
-## 📘 [Overview: What is FinFlo](README_Enhanced_Overview.md)
+## 🔁 Now vs. Future
 
-Get an introduction to FinFlo, its purpose, and how it transforms content experiences for platforms like Some Bank’s Financial IQ.
+| FinFlo Today (MVP) | FinFlo Tomorrow (Future AI-Enhanced) |
+|--------------------|--------------------------------------|
+| Rule-based content from JSON | Dynamic insight via GenAI (OpenAI/Azure) |
+| Fixed interaction modes (quiz, slider) | Contextual Q&A from users (chatbox) |
+| Fully frontend, no backend needed | API-connected AI assistant |
+| Static suggestions | Personalized, generated recommendations |
 
 ---
+
 
 ## 🛠 [MVP, Tech Stack & Usage Guide](README_Tech_MVP_Guide.md)
 
